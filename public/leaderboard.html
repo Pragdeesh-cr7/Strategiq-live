@@ -101,10 +101,12 @@ body {
   margin: 0;
   letter-spacing: 15px;
   text-transform: uppercase;
-  background: linear-gradient(to bottom, #FFD700 0%, #B8860B 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.3));
+
+  /* REMOVE ICON-LIKE GLOW */
+  background: none;
+  -webkit-text-fill-color: var(--gold);
+  filter: none;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.25);
 }
 
 .sub-title {
@@ -545,3 +547,4 @@ setInterval(updateBoard, 2000); // Poll every 2 seconds
 </script>
 </body>
 </html>
+
