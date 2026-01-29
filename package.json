@@ -1,0 +1,16 @@
+{
+  "name": "strategiq-leaderboard",
+  "version": "1.0.0",
+  "description": "StrategiQ live leaderboard backend",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "pg": "^8.17.2"
+  }
+}
